@@ -1,13 +1,21 @@
 import React from "react";
-import "./App.css";
+import PropTypes from 'prop-types';
 
-const Saludo = (props) => {
-    console.log(props);
+const Saludo = ({nombre}) => {
+
   return (
     <>
-      <p>Bienvenido a React {props.nombre}</p>
+      <h3>Bienvenido a Franco Kids {nombre}</h3>
     </>
   );
 };
 
 export default Saludo;
+
+Saludo.protTypes ={
+  nombre: PropTypes.string
+}
+
+Saludo.defaultProps = {
+  nombre: "sin-nombre"
+}

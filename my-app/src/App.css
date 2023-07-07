@@ -1,11 +1,20 @@
 body {
-    background-color: rgb(93, 94, 95);
+    background-color: grey;
     font-size: 25px;
-    color: white;
-    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
     text-align: center;
+    color: white;
 }
 
-.saludo:hover {
-    color:aqua;
+.saludo:hover{
+    color: aqua;
+}
+.fecha {
+    color: salmon;
+    font-size: 15px;
+}
+.brand {
+    color: white;
+    font-size: 40px;
+    text-align: left;
 }
